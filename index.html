@@ -1,57 +1,1165 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Projectpcmi by elzaming</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Projectpcmi</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/elzaming/projectpcmi" class="btn">View on GitHub</a>
-      <a href="https://github.com/elzaming/projectpcmi/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/elzaming/projectpcmi/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <title>小米官网——小米手机、红米手机、小米电视官方正品专卖网站</title>
+</head>
+<body>
+<link rel="stylesheet" href="css/mi.css"/>
+<div class="nav">
+    <div class="container"><!--版心-->
+        <ul class="nav_left">
+            <li><a href="">小米网</a></li>
+            <span class="sep">|</span>
+            <li><a href="">米聊</a></li>
+            <span class="sep">|</span>
+            <li><a href="">游戏</a></li>
+            <span class="sep">|</span>
+            <li><a href="">多看阅读</a></li>
+            <span class="sep">|</span>
+            <li><a href="">云服务</a></li>
+            <span class="sep">|</span>
+            <li><a href="">小米网移动版</a></li>
+            <span class="sep">|</span>
+            <li><a href="">问题反馈</a></li>
+            <span class="sep">|</span>
+            <li><a href="">Select Region</a></li>
+        </ul>
+        <div class="nav_right">
+            <li><a href="" class="login">登录</a></li>
+            <span class="sep">|</span>
+            <li><a href="" class="register">注册</a></li>
+        </div>
+        <div class="shoppingCart" id="shoppingCart">
+            <em></em>
+            <a href="javascript:;" id="cartIcon" class="cartIcon">购物车<span class="cartNum">（0）</span></a>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+            <div class="shoppingList" id="shoppingList" style="display:none ">购物车中还没有商品，赶紧选购吧！</div>
+        </div>
+        <!--为什么显示不出来-->
+    </div>
+</div>
+<div class="header">
+    <div class="container">
+        <h1 class="logo">
+            <a href=""></a>
+        </h1>
+        <ul class="header_nav" id="header_nav">
+            <li class="header_nav1">
+                小米手机
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+            </li>
+            <li>红米</li>
+            <li>平板</li>
+            <li>电视</li>
+            <li>盒子 · 影音</li>
+            <li>路由器</li>
+            <li>智能硬件</li>
+            <li>服务</li>
+            <li>社区</li>
+        </ul>
+    <!--    <div class="header_nav_menu" style="display: none">
+            <div class="container headerNavdetail">
+                <ul class="showDetail">
+                    <li>
+                        <div class="pic"><a href=""><img src="img/miphone/miphone1.jpg"/></a></div>
+                        <div class="title"><a href="javascript:;">小米max</a></div>
+                        <p class="price">1499元起</p>
+                    </li>
+                    <li>
+                        <div class="pic"><a href="javascript:;"><img src="img/miphone/miphone2.jpg"/></a></div>
+                        <div class="title"><a href="javascript:;">小米手机5</a></div>
+                        <p class="price">1999元起</p>
+                    </li>
+                    <li>
+                        <div class="pic"><a href="javascript:;"><img src="img/miphone/miphone3.jpg"/></a></div>
+                        <div class="title"><a href="javascript:;">小米手机4s</a></div>
+                        <p class="price">1699元起</p>
+                    </li>
+                    <li>
+                        <div class="pic"><a href="javascript:;"><img src="img/miphone/miphone4.jpg"/></a></div>
+                        <div class="title"><a href="javascript:;">小米手机4c</a></div>
+                        <p class="price">1099元起</p>
+                    </li>
+                    <li>
+                        <div class="pic"><a href="javascript:;"><img src="img/miphone/miphone5.jpg"/></a></div>
+                        <div class="title"><a href="javascript:;">小米手机4</a></div>
+                        <p class="price">1299元起</p>
+                    </li>
+                    <li>
+                        <div class="pic"><a href="javascript:;"><img src="img/miphone/miphone6.jpg"/></a></div>
+                        <div class="title"><a href="javascript:;">小米手机Note</a></div>
+                        <p class="price">1499元起</p>
+                    </li>
+                </ul>
+            </div>
+        </div>-->
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        <div class="search">
+            <form action="" method="get">
+                <input class="searchText" type="text" placeholder="                           小米手机4c 平衡车">
+                <input class="searchSubmit" type="submit" value="Search"/>
+                <!--定位的兄弟元素之间 谁在后面 谁的层级就会大一些 就可以覆盖前面的样式 z-index 可以调整他们之间的顺序-->
+            </form>
+        </div>
+    </div>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+</div>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<!--header ends-->
+<div class="banner">
+    <div class="container">
+        <div class="banner_center" id="banner_center">
+            <div class="banner_img" id="banner_img">
+            </div>
+            <ul class="bannerTip"></ul>
+            <a class="leftBtn" href="javascript:;"><</a>
+            <a class="rightBtn" href="javascript:;">></a>
+        </div>
+        <ul class="bannerLeft">
+            <li class="bannerLeftLi" >
+                <span>手机 平板 电话卡</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+            </li>
+            <li class="bannerLeftLi">
+                <span>电视 盒子</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米电视</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米电视</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米电视</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米电视</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>路由器 智能硬件</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>路由器</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>路由器</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>路由器</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>移动电源 插线板</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>移动电源</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>移动电源</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>移动电源</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>移动电源</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>移动电源</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>移动电源</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>移动电源</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>耳机 音箱</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>耳机</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>耳机</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>电池 存储卡</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>电池</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>存储卡</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>存储卡</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>存储卡</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>存储卡</span>
+                            <a href="">选购</a>
+                        </li>
+                        </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>保护套 后盖</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>贴膜 其他配件</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>其他</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>米兔 服装</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bannerLeftLi">
+                <span>箱包 其他周边</span>
+                <div class="detail">
+                    <ul class="detailList">
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                        <li>
+                            <img src="img/mi5bar80.jpg" alt=""/>
+                            <span>小米手机5</span>
+                            <a href="">选购</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--banner.txt 轮播图，点点和button-->
+<div class="bannerSubRow">
+    <div class="category">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<div class="miStuff">
+    <div class="container">
+        <div class="promo">
+            <div class="miniCategory promoList">
+                <ul>
+                    <li><a><img src="./img/smallicon%20(1).png" alt=""/>电信专场</a></li>
+                    <li><a><img src="./img/smallicon%20(2).png" alt=""/>企业团购</a></li>
+                    <li><a class="rht"><img src="./img/smallicon%20(3).png" alt=""/>官翻产品</a></li>
+                    <li><a class="btm"><img src="./img/smallicon%20(4).png" alt=""/>小米移动</a></li>
+                    <li><a class="btm"><img src="./img/smallicon%20(5).png" alt=""/>以旧换新</a></li>
+                    <li><a class='rht' class="btm"><img src="./img/smallicon%20(6).png" alt=""/>话费充值</a></li>
+                </ul>
+            </div>
+            <div class="promoItem promoList">
+                <a href=""><img src="./img/promo1.jpg"/></a>
+            </div>
+            <div class="promoItem promoList">
+                <a href=""><img src="./img/promo2.jpg"/></a>
+            </div>
+            <div class="promoItem promoList">
+                <a href=""><img src="./img/promo3.jpg"/></a>
+            </div>
+        </div>
+        <div class="items">
+            <div class="bestSeller_hd">
+                <h2>小米明星单品</h2>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+                <div class="moreBestSeller">
+                    <div class="xm-carousel-controls">
+                        <a href="javascript:;" class="controlL">L</a>
+                        <a href="javvascript:;" class="controlR">R</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bestSeller">
+                <ul class="bestSellerList">
+                    <li class="first">
+                        <a href="javascript:;"><img  src="./img/bestSeller/1.jpg"/></a>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/elzaming/projectpcmi">Projectpcmi</a> is maintained by <a href="https://github.com/elzaming">elzaming</a>.</span>
+                        <h3 class="title">全系小米电视现货购买</h3>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+                        <p class="desc">43" / 48" / 55" / 60" / 70" 高端旗舰</p>
 
-    </section>
+                        <p class="price">1799元起</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./img/bestSeller/2.jpg"/></a>
 
-  
-  </body>
+                        <h3 class="title">小米盒子3 增强版</h3>
+
+                        <p class="desc">高端 4K 网络机顶盒</p>
+
+                        <p class="price">399元</p>
+                    </li>
+                    <li style="border-top-color: #2196f3">
+                        <a href="javascript:;"><img src="./img/bestSeller/3.jpg"/></a>
+
+                        <h3 class="title">小米手环 光感版</h3>
+
+                        <p class="desc">心率、运动、睡眠全掌控</p>
+
+                        <p class="price">99元</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./img/bestSeller/4.jpg"/></a>
+
+                        <h3 class="title">小米净水器 厨下式</h3>
+
+                        <p class="desc">直出纯净水，隐藏式安装</p>
+
+                        <p class="price">1999元</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/bestSeller/5.jpg"/></a>
+
+                        <h3 class="title">移动电源10000mAh 高配版</h3>
+
+                        <p class="desc">支持USB Type-C充放电，双向快充</p>
+
+                        <p class="price">149元</p>
+                    </li>
+                    <li style="border-top-color: #ffac13">
+                        <a href=""><img src="./img/bestSeller/6.jpg"/></a>
+
+                        <h3 class="title">Yeelight床头灯</h3>
+
+                        <p class="desc">触摸式操作，给卧室1600万种颜色</p>
+
+                        <p class="price">249元</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./img/bestSeller/7.jpg"/></a>
+
+                        <h3 class="title">小米路由器 mini</h3>
+
+                        <p class="desc">双频AC智能路由器，高性价比</p>
+
+                        <p class="price">129元</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./img/bestSeller/8.jpg"/></a>
+
+                        <h3 class="title">Yeelight LED智能灯泡 彩光版</h3>
+
+                        <p class="desc">1600万种色彩，手机远程遥控</p>
+
+                        <p class="price">99元</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./img/bestSeller/9.jpg"/></a>
+
+                        <h3 class="title">小米智能插座 基础版</h3>
+
+                        <p class="desc">手机远程遥控，让普通电器变智能</p>
+
+                        <p class="price">49元</p>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="./img/bestSeller/10.jpg"/></a>
+
+                        <h3 class="title">小米活塞耳机 基础版</h3>
+
+                        <p class="desc">全金属音腔，5色可选</p>
+
+                        <p class="price">29元</p>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body_main">
+    <!-- 明星-->
+    <div class="smart">
+        <div class="container">
+            <div class="smart-head">
+                <h2>智能硬件</h2>
+
+                <div class="moreProduct">
+                    <a href="javascript:;" class="a-link">查看全部<i class="iconfont"></i></a></div>
+            </div>
+            <div class="smart_item"><!--margin的颜色不对-->
+                <ul>
+                    <li class="bigItem">
+                        <div><img src="./img/smart/0.jpg" alt=""></div>
+                    </li>
+                    <li class="smart_item_list brick-item-m" >
+                        <div class="div-img"><img src="./img/smart/1.jpg" alt=""></div>
+                        <h3 class="title">米家压力IH电饭煲</h3>
+
+                        <p class="desc">智能烹饪，5月24日早10点现货</p>
+
+                        <p class="price">999元</p>
+                    </li>
+                    <li class="brick-list smart_item_list brick-item-m">
+                        <div class="div-img"><img src="./img/smart/2.jpg" alt=""></div>
+                        <h3 class="title">小米路由器3</h3>
+
+                        <p class="desc">更安全更稳定，现货发售</p>
+
+                        <p class="price">149元</p>
+                    </li>
+                    <li class="brick-list smart_item_list brick-item-m">
+                        <div class="div-img"><img src="./img/smart/3.jpg" alt=""></div>
+                        <h3 class="title">小米智能安防套装</h3>
+
+                        <p class="desc">智能警戒，为您的家增添一份安心</p>
+
+                        <p class="price">169元</p>
+                    </li>
+                    <li class="brick-list smart_item_list brick-item-m">
+                        <div class="div-img"><img  src="./img/smart/4.jpg" alt=""></div>
+                        <h3 class="title">米兔电话儿童手表</h3>
+
+                        <p class="desc">安全防走丢，宝贝的贴身护卫</p>
+
+                        <p class="price">299元</p>
+                    </li>
+                    <li class="brick-list smart_item_list brick-item-m">
+                        <div class="div-img"><img src="./img/smart/5.jpg" alt=""></div>
+                        <h3 class="title">九号平衡车</h3>
+
+                        <p class="desc">年轻人的酷玩具，骑行遥控两种玩法</p>
+
+                        <p class="price">1999元</p>
+                    </li>
+                    <li class="brick-list smart_item_list brick-item-m">
+                        <div class="div-img"><img src="./img/smart/6.jpg" alt=""></div>
+                        <h3 class="title">小蚁运动相机</h3>
+
+                        <p class="desc">边玩边录边拍，手机随时分享</p>
+
+                        <p class="price">399元</p>
+                    </li>
+                    <li class="brick-list smart_item_list brick-item-m">
+                        <div class="div-img"><img  src="./img/smart/7.jpg" alt=""></div>
+                        <h3 class="title">小蚁智能摄像机 夜视版</h3>
+
+                        <p class="desc">能看能听能说，手机远程观看</p>
+
+                        <p class="price">149元</p>
+                    </li>
+                    <li class="brick-list smart_item_list brick-item-m" >
+                        <div class="div-img"><img  src="./img/smart/8.jpg" alt=""></div>
+                        <h3 class="title">米家iHealth血压计</h3>
+
+                        <p class="desc">爸妈上手就能用的血压计</p>
+
+                        <p class="price">399元</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--搭配-->
+    <div class="match">
+        <div class="container">
+            <div class="match_head">
+                <h2 class="title">搭配</h2>
+
+                <div class="moreProduct">
+                    <ul class="tab-list clearfix">
+                        <li class="tab-active hot">热门</li>
+                        <li class="tab-active earbug">耳机音响</li>
+                        <li class="tab-active charging">电源</li>
+                        <li class="tab-active battery">电池存储卡</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="matchShow">
+                <div class="matchLeft matchLeftRight">
+                    <ul class="brick-promo-list clearfix brick-item-m">
+                        <li class="brick-item-m first">
+                            <a href="javascript:;">
+                                <img src="./img/match/matchLeft1.jpg">
+                            </a>
+                        </li>
+                        <li class="brick-item-m">
+                            <a href="javascript:;"><img src="./img/match/matchLeft2.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="matchRight matchLeftRight">
+                    <div class="tab-container">
+                        <ul class="tab-content clearfix">
+                            <li class="brick-item-m">
+                                <div class="figure-img">
+                                    <a href="javascript:;">
+                                        <img src="./img/match/match1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    小米移动电源10000mAh
+                                </h3>
+
+                                <p class="price">
+                                       <span class="num">
+                                        79
+                                     </span>元
+                                </p>
+
+                                <p class="review">
+                                    17.1万人评价
+                                </p>
+
+                                <div class="reviver-wrapper">
+                                    <a href="javascript:;">
+                                        <span class="review">非常棒的手感。越来越好了，小米加油！</span>
+                                        </span>
+                                           <span class="autor"> "来自于 journey099 的评价"
+                                           </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="brick-item-m">
+                                <div class="figure-img">
+                                    <a href="javascript:;">
+                                        <img src="./img/match/match2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    小米移动电源10000mAh
+                                </h3>
+
+                                <p class="price">
+                                       <span class="num">
+                                        79
+                                     </span>元
+                                </p>
+
+                                <p class="review">
+                                    17.1万人评价
+                                </p>
+
+                                <div class="reviver-wrapper">
+                                    <a href="javascript:;">
+                                        <span class="review">非常棒的手感。越来越好了，小米加油！</span>
+                                        </span>
+                                           <span class="autor"> "来自于 journey099 的评价"
+                                           </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="brick-item-m">
+                                <div class="figure-img">
+                                    <a href="javascript:;">
+                                        <img src="./img/match/match3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    小米移动电源10000mAh
+                                </h3>
+
+                                <p class="price">
+                                       <span class="num">
+                                        79
+                                     </span>元
+                                </p>
+
+                                <p class="review">
+                                    17.1万人评价
+                                </p>
+
+                                <div class="reviver-wrapper">
+                                    <a href="javascript:;">
+                                        <span class="review">非常棒的手感。越来越好了，小米加油！</span>
+                                        </span>
+                                           <span class="autor"> "来自于 journey099 的评价"
+                                           </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="brick-item-m">
+                                <div class="figure-img">
+                                    <a href="javascript:;">
+                                        <img src="./img/match/match4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    小米移动电源10000mAh
+                                </h3>
+
+                                <p class="price">
+                                       <span class="num">
+                                        79
+                                     </span>元
+                                </p>
+
+                                <p class="review">
+                                    17.1万人评价
+                                </p>
+
+                                <div class="reviver-wrapper">
+                                    <a href="javascript:;">
+                                        <span class="review">非常棒的手感。越来越好了，小米加油！</span>
+                                        </span>
+                                           <span class="autor"> "来自于 journey099 的评价"
+                                           </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="brick-item-m brick-item-below">
+                                <div class="figure-img">
+                                    <a href="javascript:;">
+                                        <img src="./img/match/match5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    小米移动电源10000mAh
+                                </h3>
+
+                                <p class="price">
+                                       <span class="num">
+                                        79
+                                     </span>元
+                                </p>
+
+                                <p class="review">
+                                    17.1万人评价
+                                </p>
+
+                                <div class="reviver-wrapper">
+                                    <a href="javascript:;">
+                                        <span class="review">非常棒的手感。越来越好了，小米加油！</span>
+                                        </span>
+                                           <span class="autor"> "来自于 journey099 的评价"
+                                           </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="brick-item-m brick-item-below">
+                                <div class="figure-img">
+                                    <a href="javascript:;">
+                                        <img src="./img/match/match6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    小米移动电源10000mAh
+                                </h3>
+
+                                <p class="price">
+                                       <span class="num">
+                                        79
+                                     </span>元
+                                </p>
+
+                                <p class="review">
+                                    17.1万人评价
+                                </p>
+
+                                <div class="reviver-wrapper">
+                                    <a href="javascript:;">
+                                        <span class="review">非常棒的手感。越来越好了，小米加油！</span>
+                                        </span>
+                                           <span class="autor"> "来自于 journey099 的评价"
+                                           </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="brick-item-m brick-item-below">
+                                <div class="figure-img">
+                                    <a href="javascript:;">
+                                        <img src="./img/match/match7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    小米移动电源10000mAh
+                                </h3>
+
+                                <p class="price">
+                                       <span class="num">
+                                        79
+                                     </span>元
+                                </p>
+
+                                <p class="review">
+                                    17.1万人评价
+                                </p>
+
+                                <div class="reviver-wrapper">
+                                    <a href="javascript:;">
+                                        <span class="review">非常棒的手感。越来越好了，小米加油！</span>
+                                        </span>
+                                           <span class="autor"> "来自于 journey099 的评价"
+                                           </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="brick-item-m brick-item-below brick-item-s ">
+
+                                    <div class=" figure-img">
+                                        <a class=figureSmall href="javascript:;">
+                                            <img src="./img/match/match8.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <h3 class="title">
+                                        小米蓝牙音响
+                                    </h3>
+
+                                    <p class="price">
+                                       <span class="num">
+                                        199元
+                                     </span>
+                                    </p>
+                                </li>
+                            <li class="brick-item-m brick-item-below brick-item-s ">
+                                    <div class="figure-img figure-more">
+                                        <a class="figureSmall" href="javascript:;"><img src="img/match/match8.jpg" alt=""/>
+                                        </a>
+                                    </div>
+
+                                        <h3 class="title">浏览更多</h3>
+                                        <p class="price">
+                                       <span class="num">
+                                        热门
+                                     </span>
+                                        </p>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="site-footer">
+    <div class="container">
+        <div class="footer-service">
+            <ul class="list-service clearfix">
+                <li class="none-line">
+                    <a href="javascript:;">
+                        <i class="iconfont">
+                            &#xe61b
+                        </i>
+                        1小时快修服务
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">
+                            &#xe606
+                        </i>
+                        7天无理由退货
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">
+                            &#xe606
+                        </i>
+                        15天免费换货
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">
+                            &#xe606
+                        </i>
+                        满150元包邮
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">
+                            &#xe60a
+                        </i>
+                        520余家售后网点
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-links clearfix">
+            <dl class="col-links col-links-first">
+                <dt>帮助中心</dt>
+                <dd>
+                    <a href="javascript:;">
+                        购物指南
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        支付方式
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        配送方式
+                    </a>
+                </dd>
+            </dl>
+            <dl class="col-links ">
+                <dt>服务支持</dt>
+                <dd>
+                    <a href="javascript:;">
+                        售后政策
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        自助服务
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        相关下载
+                    </a>
+                </dd>
+            </dl>
+            <dl class="col-links ">
+                <dt>线下门店</dt>
+                <dd>
+                    <a href="javascript:;">
+                        小米之家
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        服务网点
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        零售网点
+                    </a>
+                </dd>
+            </dl>
+            <dl class="col-links ">
+                <dt>关于小米</dt>
+                <dd>
+                    <a href="javascript:;">
+                        了解小米
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        加入小米
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        联系我们
+                    </a>
+                </dd>
+            </dl>
+            <dl class="col-links ">
+                <dt>关注我们</dt>
+                <dd>
+                    <a href="javascript:;">
+                        新浪微博
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        小米部落
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        官方微信
+                    </a>
+                </dd>
+            </dl>
+            <dl class="col-links ">
+                <dt>特色服务</dt>
+                <dd>
+                    <a href="javascript:;">
+                        F码通道
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        小米移动
+                    </a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">
+                        防伪查询
+                    </a>
+                </dd>
+            </dl>
+            <div class="col-contact">
+                <p class="phone">400-100-5678</p>
+
+                <p class="time">
+                    周一至周日8：00-18：00<br>
+                    (仅收市话费)
+                </p>
+                <a href="javascript:;" class="btn-small btn btn-line-primary">
+                    <i class="iconfont"></i>
+                    24小时在线客服
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-info">
+    <div class="container">
+        <div class="logo ir">小米官网</div>
+        <div class="info-text">
+            <p class="sites"><a rel="nofollow" href="//www.mi.com/index.html" target="_blank" data-stat-id="4fb589dbb54f257a" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-4fb589dbb54f257a', '//www.mi.com/index.html', 'pcpid']);">小米网</a><span class="sep">|</span><a rel="nofollow" href="http://www.miui.com/" target="_blank" data-stat-id="ed2a0e25c8b0ca2f" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-ed2a0e25c8b0ca2f', 'http://www.miui.com/', 'pcpid']);">MIUI</a><span class="sep">|</span><a rel="nofollow" href="http://www.miliao.com/" target="_blank" data-stat-id="826b32c1478a98d5" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-826b32c1478a98d5', 'http://www.miliao.com/', 'pcpid']);">米聊</a><span class="sep">|</span><a rel="nofollow" href="http://www.duokan.com/" target="_blank" data-stat-id="c9d2af1ad828a834" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-c9d2af1ad828a834', 'http://www.duokan.com/', 'pcpid']);">多看书城</a><span class="sep">|</span><a rel="nofollow" href="http://www.miwifi.com/" target="_blank" data-stat-id="96f1a8cecc909af2" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-96f1a8cecc909af2', 'http://www.miwifi.com/', 'pcpid']);">小米路由器</a><span class="sep">|</span><a rel="nofollow" href="http://call.mi.com/" target="_blank" data-stat-id="347f6dd0d8d9fda3" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-347f6dd0d8d9fda3', 'http://call.mi.com/', 'pcpid']);">视频电话</a><span class="sep">|</span><a rel="nofollow" href="http://blog.xiaomi.com/" target="_blank" data-stat-id="4ad42379062eda19" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-4ad42379062eda19', 'http://blog.xiaomi.com/', 'pcpid']);">小米后院</a><span class="sep">|</span><a rel="nofollow" href="http://xiaomi.tmall.com/" target="_blank" data-stat-id="dfe0fac59cfb15d9" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-dfe0fac59cfb15d9', 'http://xiaomi.tmall.com/', 'pcpid']);">小米天猫店</a><span class="sep">|</span><a rel="nofollow" href="http://shop115048570.taobao.com" target="_blank" data-stat-id="c2613d0d3b77ddff" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-c2613d0d3b77ddff', 'http://shop115048570.taobao.com', 'pcpid']);">小米淘宝直营店</a><span class="sep">|</span><a rel="nofollow" href="http://union.mi.com/" target="_blank" data-stat-id="2f48f953961c637d" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-2f48f953961c637d', 'http://union.mi.com/', 'pcpid']);">小米网盟</a><span class="sep">|</span><a rel="nofollow" href="//static.mi.com/feedback/" target="_blank" data-stat-id="6479cd2d041bcf04" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-6479cd2d041bcf04', '//static.mi.com/feedback/', 'pcpid']);">问题反馈</a><span class="sep">|</span><a rel="nofollow" href="#J_modal-globalSites" data-toggle="modal" data-stat-id="9db137a8e0d5b3dd" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-9db137a8e0d5b3dd', '#J_modal-globalSites', 'pcpid']);">Select Region</a>            </p>
+            <p>©<a href="//www.mi.com/" target="_blank" title="mi.com" data-stat-id="836cacd9ca5b75dd" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-836cacd9ca5b75dd', '//www.mi.com/', 'pcpid']);">mi.com</a> 京ICP证110507号 京ICP备10046444号 <a rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134" target="_blank" data-stat-id="57efc92272d4336b" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-57efc92272d4336b', 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134', 'pcpid']);">京公网安备11010802020134号 </a><a rel="nofollow" href="//c1.mifile.cn/f/i/2013/cn/jingwangwen.jpg" target="_blank" data-stat-id="c5f81675b79eb130" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-c5f81675b79eb130', '//c1.mifile.cn/f/i/2013/cn/jingwangwen.jpg', 'pcpid']);">京网文[2014]0059-0009号</a>
+
+                <br> 违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+        </div>
+        <div class="info-links">
+            <a rel="nofollow" href="//privacy.truste.com/privacy-seal/validation?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8&amp;lang=zh-cn" target="_blank" data-stat-id="de920be99941f792" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-de920be99941f792', '//privacy.truste.com/privacy-seal/validation?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8&amp;lang=zh-cn', 'pcpid']);"><img rel="nofollow" src="//privacy-policy.truste.com/privacy-seal/seal?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8" alt="TRUSTe Privacy Certification"></a>
+            <a rel="nofollow" href="//search.szfw.org/cert/l/CX20120926001783002010" target="_blank" data-stat-id="d44905018f8d7096" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-d44905018f8d7096', '//search.szfw.org/cert/l/CX20120926001783002010', 'pcpid']);"><img rel="nofollow" src="//s01.mifile.cn/i/v-logo-2.png" alt="诚信网站"></a>
+            <a rel="nofollow" href="https://ss.knet.cn/verifyseal.dll?sn=e12033011010015771301369&amp;ct=df&amp;pa=461082" target="_blank" data-stat-id="3e1533699f264eac" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-3e1533699f264eac', 'https://ss.knet.cn/verifyseal.dll?sn=e12033011010015771301369&amp;ct=df&amp;pa=461082', 'pcpid']);"><img rel="nofollow" src="//s01.mifile.cn/i/v-logo-1.png" alt="可信网站"></a>
+            <a rel="nofollow" href="http://www.315online.com.cn/member/315140007.html" target="_blank" data-stat-id="b085e50c7ec83104" onclick="_msq.push(['trackEvent', '79fe2eae924d2a2e-b085e50c7ec83104', 'http://www.315online.com.cn/member/315140007.html', 'pcpid']);"><img rel="nofollow" src="//s01.mifile.cn/i/v-logo-3.png" alt="网上交易保障中心"></a>
+        </div>
+    </div>
+    <div class="slogan ir">探索黑科技，小米为发烧而生</div>
+</div>
+</body>
+<script type="text/javascript" src="js/utils-1.0.0.min.js"></script>
+<script type="text/javascript" src="js/tween.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/mi.js"></script>
+<script></script>
+
+<!--utils 库有问题。-->
+<!--因为不轮播，所以就想到去看轮播图的库
+
+-->
 </html>
